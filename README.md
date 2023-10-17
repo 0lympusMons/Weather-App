@@ -1,15 +1,13 @@
-# 🚀 Welcome to your new awesome project!
+# Welcome to my Weather App Project!
 
 This project has been created using **webpack-cli**, you can now run
 
 ```
 npm run build
 ```
-
 or
-
 ```
 yarn build
 ```
 
-to bundle your application
+to bundle this app
