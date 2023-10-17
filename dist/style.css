@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --border-radius: 4px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 10%;
+}
+header h1 {
+  font-size: 2rem;
+  margin: auto 50px;
+}
+
+div.search-bar {
+  height: 10%;
+  display: flex;
+}
+div.search-bar form {
+  margin: auto;
+  height: 2.5rem;
+}
+div.search-bar form #location-search {
+  background: black;
+  color: white;
+  font-size: 1em;
+  padding-left: 1rem;
+}
+div.search-bar form #location-search::-moz-placeholder {
+  color: white;
+}
+div.search-bar form #location-search::placeholder {
+  color: white;
+}
+div.search-bar form #location-search-button {
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0 1.5rem;
+}
+div.search-bar form #location-search-button, div.search-bar form #location-search {
+  height: inherit;
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+section.content {
+  height: 80%;
+  text-align: center;
+}
+section.content #results {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: var(--border-radius);
+  margin: auto;
+  font-size: 0.75rem;
+}
+section.content #results > * {
+  white-space: pre;
+  margin: 8px;
+}/*# sourceMappingURL=style.css.map */
